@@ -1,0 +1,30 @@
+.app-header{
+    height: 72px;
+    // background-color: aquamarine;
+    font-family: raleway;
+    color: white;
+    margin-block-end: 14px;
+    // padding-inline:20px ;
+    .logo{
+        scale: 0.5;
+        transform: translate(-80px);
+        svg{
+        }
+        img{
+            width: 28px;
+            height: 23px;
+            margin-inline-end: 6px;
+        }
+        span{
+            font-family: raleway-bold;
+            font-size: 24px;
+        }
+    }
+    .nav-bar{
+
+        font-size: 12px;
+        &>a{
+            margin-inline-start: 10px;
+        }
+    }
+}

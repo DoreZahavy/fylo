@@ -1,0 +1,26 @@
+.teaser-list {
+    grid-template-rows: repeat(4, 280px);
+    .teaser {
+        margin-block-end: 80px;
+        svg{
+            margin-block-end: 30px;
+        }
+        h3 {
+            font-family: raleway-bold;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 24px;
+            margin-block-end: 8px;
+            margin-block-start: 0px;
+        }
+        p {
+            font-size: 14px;
+            line-height: 21px;
+            font-family: sans-serif;
+            font-weight: 400;
+            // text-align: justify;
+            padding-inline: 10px;
+            margin: 0;
+        }
+    }
+}
